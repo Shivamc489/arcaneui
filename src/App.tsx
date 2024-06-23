@@ -1,12 +1,13 @@
-import './App.css'
-import FloatingModal from './components/FloatingModal'
+import React from 'react'
+import './index.css'
+import FloatingSidePanel from './components/examples/FloatingSidePanel'
 
 function App() {
 
   return (
-    <>
-      <FloatingModal />
-    </>
+    <div className="App">
+      <FloatingSidePanel />
+    </div>
   )
 }
 
