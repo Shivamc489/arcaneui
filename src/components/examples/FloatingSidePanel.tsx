@@ -9,6 +9,7 @@ import {
 } from "../SidePanel";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
+import { Separator } from "../ui/separator";
 
 const FloatingSidePanel: React.FC = () => {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -39,7 +40,8 @@ const FloatingSidePanel: React.FC = () => {
       <SidePanel>
         <SidePanelHeader>
           <SidePanelTitle>Arcane Chat</SidePanelTitle>
-          <SidePanelDescription>Chat with us</SidePanelDescription>
+          <SidePanelDescription>Chat with Arcane AI ✨</SidePanelDescription>
+          <Separator />
         </SidePanelHeader>
         <SidePanelContent className="flex flex-col h-full overflow-y-auto">
           <div className="flex flex-col space-y-2" ref={scrollRef}>
